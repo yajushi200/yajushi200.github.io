@@ -1,0 +1,73 @@
+body 
+{ 
+    background-image: url('HappyValley_Coulson10_v3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode:color-burn;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h3
+{color: rgb(81, 51, 14);
+
+
+}
+
+.b{
+    max-width: 1000px;
+    margin:auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color:rgba(227, 236, 95, 0.842);
+}
+p{
+    max-width: 1000px;
+    margin:auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: rgba(227, 236, 95, 0.842);
+color:darkgreen;
+}
+ul
+{
+    max-width: 960px;
+    margin:auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: rgba(227, 236, 95, 0.842); 
+    font-weight: bold;
+}
+hr{
+    max-width: 1000px;
+    margin:auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: rgba(227, 236, 95, 0.842); 
+
+}
+footer 
+{max-width: 1000px;
+    margin:auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: rgba(234, 243, 113, 0.842); 
+    font-weight: bold
+}
+
+@keyframes anim {
+    from{opacity: 0%;}
+    to{opacity: 100%;}
+}
+
+.animation{
+    animation-name: anim;
+    animation-duration: 2s;
+}
